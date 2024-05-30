@@ -1,0 +1,21 @@
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100%; // Takes the full height of the viewport
+  width: 100vw; // Takes the full width of the viewport
+  margin: 0;
+  padding: 0;
+  font-family: "roboto";
+  font-weight: 100;
+  color: #848484;
+  background-color: #f6f0e0;
+}
+
+.app {
+  // If you want .app to be the centered box where all content goes
+  width: 80%; // Adjust width as needed
+  max-width: 1200px; // Maximum width, adjust as needed
+  display: flex;
+  flex-direction: column;
+}

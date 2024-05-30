@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+.home {
+  padding: 24px;
+}
+
+.bigger {
+  font-family: "Roboto";
+  font-size: 24px;
+  font-weight: 100;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.barChartWrapper {
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.barChart {
+  height: 350px;
+  width: 350px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+.hungry {
+  text-align: center;
+  color: white;
+  background-color: #e5d3a5;
+  width: 150px;
+  height: 350px;
+}
+
+.sated {
+  text-align: center;
+  color: white;
+  background-color: #f0e0f6;
+  width: 150px;
+  height: 40px;
+}
+
+.caption {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.split {
+  display: flex;
+  flex-direction: row;
+  > * {
+    padding: 2rem;
+  }
+}
+.left,
+.right {
+  align-items: flex-end;
+}
