@@ -10,11 +10,15 @@ This project is bootstrapped with [Create React App](https://create-react-app.de
 - You can download Node.js from [nodejs.org](https://nodejs.org/), which includes npm.
 
 ### Install Dependencies
+using npm:
 ```bash
-npm install
-yarn install
+npm run install
 ```
 
+using yarn:
+```bash
+yarn install 
+```
 ### Start Dev Environment or Build Project
 
 #### Start Dev
